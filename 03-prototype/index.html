@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Вхід — Корпоративний портал (демо)</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 480px) { .form-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="auth-wrap">
+    <div class="auth-card">
+      <span class="brand">⚙️ Корпоративний портал</span>
+      <div class="demo-badge">Демо-режим</div>
+      <p class="subtitle">Імітація входу тільки для демонстрації механізму ролей та контролю доступу.</p>
+      <div class="demo-note"><b>Синтетичні логіни</b><br/>demo@firm.ua / пароль <b>DemoPort1!</b> (будь-яке значення працює)<br/>Роль користувача демонструється селектором нижче — це не реальна аутентифікація.</div>
+      <div class="row" style="margin-top:14px;">
+        <div class="field" style="margin:0;">
+          <label>Обрати роль демо-користувача</label>
+          <select id="demo-role" class="select">
+            <option value="user">Працівник (user)</option>
+            <option value="admin">Адміністратор (admin)</option>
+            <option value="superadmin">Суперадміністратор (superadmin)</option>
+          </select>
+          <p class="subtitle" style="margin:6px 0 0;">Працівник бачить панель, оголошення, документи, довідник. Адміністратор — додатково керування контентом та ролями.</p>
+        </div>
+      </div>
+      <div class="form-grid">
+        <div class="field">
+          <label>Електронна пошта</label>
+          <input class="input" id="demo-email" value="demo@firm.ua" autocomplete="off" />
+        </div>
+        <div class="field">
+          <label>Пароль (демо)</label>
+          <input class="input" type="password" id="demo-password" value="DemoPort1!" autocomplete="off" />
+        </div>
+      </div>
+      <div class="row" style="margin-top:14px;">
+        <button id="login-btn" class="btn">Увійти (демо)</button>
+      </div>
+      <p class="remember" style="margin-top:14px;">
+        <input type="checkbox" id="remember" />
+        <label for="remember" style="cursor:pointer;">Запам'ятати вибрану роль для цього сеансу (тільки у цій імітації)</label>
+      </p>
+    </div>
+  </div>
+  <script src="assets/js/demo-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/login.js"></script>
+</body>
+</html>

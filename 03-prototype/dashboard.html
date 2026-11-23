@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Панель привітання — Корпоративний портал</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="shell-sidebar">
+      <div class="brand">⚙️ Портал</div>
+      <nav id="sidebar-nav">
+        <ul>
+          <li><a href="dashboard.html" data-perm="view_dashboard"><span class="icon">📊</span> Панель</a></li>
+          <li><a href="announcements.html" data-perm="view_announcements"><span class="icon">📢</span> Оголошення</a></li>
+          <li><a href="documents.html" data-perm="view_documents"><span class="icon">📄</span> Документи</a></li>
+          <li><a href="directory.html" data-perm="view_directory"><span class="icon">👥</span> Довідник</a></li>
+          <li id="nav-roles"><a href="roles.html" data-perm="manage_roles"><span class="icon">🔐</span> Ролі</a></li>
+        </ul>
+      </nav>
+      <div class="user-chip">
+        <span class="avatar" id="user-avatar">П</span>
+        <span id="user-chip-name"></span>
+      </div>
+    </div>
+    <div class="shell-main">
+      <div class="shell-header">
+        <h2 id="page-title">Панель привітання</h2>
+        <button id="logout-btn" class="btn btn-secondary btn-sm">Вийти</button>
+      </div>
+      <div id="app"></div>
+    </div>
+  </div>
+  <script src="assets/js/demo-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

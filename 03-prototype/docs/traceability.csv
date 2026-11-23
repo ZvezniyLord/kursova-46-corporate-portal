@@ -1,0 +1,11 @@
+requirement_id,story_id,wbs_id,jira_key,prototype_screen,uat_case,evidence_path,status
+REQ-001,US-001,WBS-1.1,PLANNED,prototype-login,UAT-001,03-prototype/index.html,REAL
+REQ-002,US-002,WBS-2.1,PLANNED,prototype-dashboard,UAT-002,03-prototype/dashboard.html,REAL
+REQ-003,US-003,WBS-2.2,PLANNED,prototype-news,UAT-003,03-prototype/announcements.html,REAL
+REQ-004,US-004,WBS-2.3,PLANNED,prototype-documents-search,UAT-004,03-prototype/documents.html,REAL
+REQ-005,US-005,WBS-2.4,PLANNED,prototype-directory,UAT-005,03-prototype/directory.html,REAL
+REQ-006,US-006,WBS-2.5,PLANNED,prototype-roles,UAT-006,03-prototype/roles.html,REAL
+REQ-007,US-007,WBS-3.1,PLANNED,prototype-accessibility,UAT-007,03-prototype/README.md + docs/smoke-check.js,REAL
+REQ-008,US-008,WBS-3.2,PLANNED,prototype-security-notes,UAT-008,03-prototype/README.md + docs/smoke-check.js,REAL
+REQ-009,US-009,WBS-4.1,PLANNED,project-plan,UAT-009,01-project-plan/PLANNED,PLANNED
+REQ-010,US-010,WBS-4.2,PLANNED,jira-backlog-proposal,UAT-010,02-jira/backlog-import-proposal.csv,EDUCATIONAL_SIMULATION
