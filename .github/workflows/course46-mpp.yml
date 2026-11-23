@@ -1,1 +1,183 @@
-bmFtZTogQnVpbGQgY291cnNld29yayA0NiBuYXRpdmUgTVBQCgpvbjoKICBwdXNoOgogICAgYnJhbmNoZXM6IFtjb2RleC9jb3Vyc2U0Ni1tcHAtZXhwb3J0XQogICAgcGF0aHM6IFsuZ2l0aHViL3dvcmtmbG93cy9jb3Vyc2U0Ni1tcHAueW1sXQoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKCmpvYnM6CiAgZXhwb3J0OgogICAgcnVucy1vbjogbWFjb3MtMTUKICAgIHRpbWVvdXQtbWludXRlczogMTIKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjYKICAgICAgICB3aXRoOgogICAgICAgICAgcGVyc2lzdC1jcmVkZW50aWFsczogZmFsc2UKICAgICAgLSBuYW1lOiBHZXQgcGlubmVkIE1QUCB3cml0ZXIKICAgICAgICBydW46IHwKICAgICAgICAgIGdpdCBpbml0ICIkUlVOTkVSX1RFTVAvbXBwa2l0IgogICAgICAgICAgZ2l0IC1DICIkUlVOTkVSX1RFTVAvbXBwa2l0IiBmZXRjaCAtLWRlcHRoPTEgaHR0cHM6Ly9naXRodWIuY29tL01vbGNoLUFwUy9NUFBLaXQuZ2l0IGE0N2ZkZWMxZTcwZTVlYThlOWRiMTcyNDlkZDI2NWIxYTllYWNjMjYKICAgICAgICAgIGdpdCAtQyAiJFJVTk5FUl9URU1QL21wcGtpdCIgY2hlY2tvdXQgLS1kZXRhY2ggRkVUQ0hfSEVBRAogICAgICAtIG5hbWU6IEJ1aWxkIGFuZCByb3VuZC10cmlwIHRoZSBjb3Vyc2Ugc2NoZWR1bGUKICAgICAgICBlbnY6CiAgICAgICAgICBJTlBVVDogJHt7IGdpdGh1Yi53b3Jrc3BhY2UgfX0vMDEtcHJvamVjdC1wbGFuLzIwMjYtQjEvS3Vyc292YV80Nl9Qcm9qZWN0LnhtbAogICAgICAgICAgT1VUUFVUOiAke3sgZ2l0aHViLndvcmtzcGFjZSB9fS9LdXJzb3ZhXzQ2X1Byb2plY3QubXBwCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBjZCAiJFJVTk5FUl9URU1QL21wcGtpdCIKICAgICAgICAgIHB5dGhvbjMgLSA8PCdQWScKICAgICAgICAgIGZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAogICAgICAgICAgcCA9IFBhdGgoIlNvdXJjZXMvTVBQMTQvTVBQMTRXcml0ZXIuc3dpZnQiKQogICAgICAgICAgcyA9IHAucmVhZF90ZXh0KCkKICAgICAgICAgIGRlZiBjaGFuZ2UoYSwgYik6CiAgICAgICAgICAgICAgZ2xvYmFsIHMKICAgICAgICAgICAgICBhc3NlcnQgcy5jb3VudChhKSA9PSAxLCBhCiAgICAgICAgICAgICAgcyA9IHMucmVwbGFjZShhLGIpCiAgICAgICAgICBjaGFuZ2UoInByb2plY3QucmVjYWxjdWxhdGVDb3N0cyhrZWVwaW5nRnJvbTogc291cmNlKSIsCiAgICAgICAgICAgICAgICAgIi8vIFRoZSBleHBvcnRlZCBjb3Vyc2V3b3JrIGlucHV0IGFscmVhZHkgY29udGFpbnMgaXRzIG1vZGVsZWQgY29zdHMuIikKICAgICAgICAgIGNoYW5nZSgibGV0IGFzc2lnbm1lbnRXb3JrID0gcHJvamVjdC5hc3NpZ25tZW50V29ya0hvdXJzKGtlZXBpbmdGcm9tOiBzb3VyY2UpLm1hcCB7ICQwICogNjAwICogVy53b3JrU2NhbGUgfSIsCiAgICAgICAgICAgICAgICAgImxldCBhc3NpZ25tZW50V29yayA9IHByb2plY3QuYXNzaWdubWVudHMubWFwIHsgJDAud29ya0hvdXJzICogNjAwICogVy53b3JrU2NhbGUgfSIpCiAgICAgICAgICBjaGFuZ2UoIiIiZGlyZWN0V29ya1thLnRhc2tVSUQsIGRlZmF1bHQ6IDBdICs9IGtlcHRXb3JrW2ldID8gYXNzaWdubWVudFdvcmtbaV0KICAgICAgICAgICAgICAgICAgICAgICAgICA6IERvdWJsZShlZmZbYS50YXNrVUlEXSEudGVudGhzKSAqIFcud29ya1NjYWxlICogYS51bml0cyIiIiwKICAgICAgICAgICAgICAgICAiZGlyZWN0V29ya1thLnRhc2tVSUQsIGRlZmF1bHQ6IDBdICs9IGFzc2lnbm1lbnRXb3JrW2ldIikKICAgICAgICAgIGNoYW5nZSgidmFyIGRvbmUgPSBzdW0gKiBEb3VibGUocGN0W3QudWlkXSA/PyAwKSAvIDEwMCIsCiAgICAgICAgICAgICAgICAgInZhciBkb25lID0gKHQubnVtYmVyc1s0XSA/PyAwKSAqIDYwMCAqIFcud29ya1NjYWxlIikKICAgICAgICAgIGNoYW5nZSgiIiJsZXQgd29ya1BlcmNlbnQgPSB3b3JrUGVyY2VudCA/PyBwZXJjZW50CiAgICAgICAgICAgICAgICAgICAgICBlLnUxNihGLnBlcmNlbnRXb3JrQ29tcGxldGUsIFVJbnQxNih3b3JrUGVyY2VudCkpIiIiLAogICAgICAgICAgICAgICAgICIiImxldCBtZWFzdXJlZCA9IHRhc2s/Lm51bWJlcnNbNF0ubWFwIHsgJDAgKiA2MDAgKiBXLndvcmtTY2FsZSB9CiAgICAgICAgICAgICAgICAgICAgICBsZXQgd29ya1BlcmNlbnQgPSBtZWFzdXJlZC5tYXAgeyB3b3JrID4gMCA/IEludC5jbGFtcGVkKCQwIC8gd29yayAqIDEwMCkgOiAwIH0gPz8gd29ya1BlcmNlbnQgPz8gcGVyY2VudAogICAgICAgICAgICAgICAgICAgICAgZS51MTYoRi5wZXJjZW50V29ya0NvbXBsZXRlLCBVSW50MTYod29ya1BlcmNlbnQpKSIiIikKICAgICAgICAgIGNoYW5nZSgiIiJlLmY2NChGLmFjdHVhbFdvcmssIHdvcmsgKiBEb3VibGUod29ya1BlcmNlbnQpIC8gMTAwKQogICAgICAgICAgICAgICAgICAgICAgICAgIGUuZjY0KEYucmVtYWluaW5nV29yaywgd29yayAqIERvdWJsZSgxMDAgLSB3b3JrUGVyY2VudCkgLyAxMDApIiIiLAogICAgICAgICAgICAgICAgICIiImxldCBleGFjdCA9IG1lYXN1cmVkID8/IHdvcmsgKiBEb3VibGUod29ya1BlcmNlbnQpIC8gMTAwCiAgICAgICAgICAgICAgICAgICAgICAgICAgZS5mNjQoRi5hY3R1YWxXb3JrLCBleGFjdCkKICAgICAgICAgICAgICAgICAgICAgICAgICBlLmY2NChGLnJlbWFpbmluZ1dvcmssIHdvcmsgLSBleGFjdCkiIiIpCiAgICAgICAgICBjaGFuZ2UoImxldCB3b3JrID0ga2VlcHNXb3JrID8gYXNzaWdubWVudFdvcmtbbl0gOiBEb3VibGUodGVudGhzKSAqIFcud29ya1NjYWxlICogc3BlYy51bml0cyIsCiAgICAgICAgICAgICAgICAgImxldCB3b3JrID0gbiA8IGFzc2lnbm1lbnRXb3JrLmNvdW50ID8gYXNzaWdubWVudFdvcmtbbl0gOiAwIikKICAgICAgICAgIGNoYW5nZSgiIiJsZXQgcCA9IHBjdFtzcGVjLnRhc2tdID8/IDAKICAgICAgICAgICAgICAgICAgICAgIHZhciByZWFjaGVkIiIiLAogICAgICAgICAgICAgICAgICIiImxldCBwID0gcGN0W3NwZWMudGFza10gPz8gMAogICAgICAgICAgICAgICAgICAgICAgbGV0IGFjdHVhbCA9ICh0YXNrLm51bWJlcnNbNF0gPz8gMCkgKiA2MDAgKiBXLndvcmtTY2FsZQogICAgICAgICAgICAgICAgICAgICAgdmFyIHJlYWNoZWQiIiIpCiAgICAgICAgICBjaGFuZ2UoInJlbWFpbmluZ1dvcmsgPSB3b3JrICogRG91YmxlKDEwMCAtIHApIC8gMTAwIiwgInJlbWFpbmluZ1dvcmsgPSB3b3JrIC0gYWN0dWFsIikKICAgICAgICAgIGNoYW5nZSgiZS5mNjQoQS5hY3R1YWxXb3JrLCB3b3JrICogRG91YmxlKHApIC8gMTAwKSIsICJlLmY2NChBLmFjdHVhbFdvcmssIGFjdHVhbCkiKQogICAgICAgICAgY2hhbmdlKCJlLnUxNihBLnBlcmNlbnRXb3JrQ29tcGxldGUsIFVJbnQxNihwKSkiLCAiZS51MTYoQS5wZXJjZW50V29ya0NvbXBsZXRlLCBVSW50MTYod29yayA+IDAgPyBJbnQuY2xhbXBlZChhY3R1YWwgLyB3b3JrICogMTAwKSA6IDApKSIpCiAgICAgICAgICBjaGFuZ2UoIlNlbGYuYWN0dWFsV29ya0NvbnRvdXIodW5pdHM6IHNwZWMudW5pdHMsIHdvcms6IHdvcmsgKiBEb3VibGUocCkgLyAxMDAsIiwKICAgICAgICAgICAgICAgICAiU2VsZi5hY3R1YWxXb3JrQ29udG91cih1bml0czogc3BlYy51bml0cywgd29yazogYWN0dWFsLCIpCiAgICAgICAgICBwLndyaXRlX3RleHQocykKICAgICAgICAgIFBZCiAgICAgICAgICBtdiBTb3VyY2VzL21wcGR1bXAvbWFpbi5zd2lmdCAiJFJVTk5FUl9URU1QL21wcGR1bXAtb3JpZ2luYWwuc3dpZnQiCiAgICAgICAgICBjYXQgPiBTb3VyY2VzL21wcGR1bXAvbWFpbi5zd2lmdCA8PCdTV0lGVCcKICAgICAgICAgIC8vIFNQRFgtTGljZW5zZS1JZGVudGlmaWVyOiBBR1BMLTMuMC1vbmx5CiAgICAgICAgICBpbXBvcnQgRm91bmRhdGlvbgogICAgICAgICAgaW1wb3J0IEZvdW5kYXRpb25YTUwKICAgICAgICAgIGltcG9ydCBNUFBLaXQKCiAgICAgICAgICBsZXQgaW5wdXQgPSBVUkwoZmlsZVVSTFdpdGhQYXRoOiBQcm9jZXNzSW5mby5wcm9jZXNzSW5mby5lbnZpcm9ubWVudFsiSU5QVVQiXSEpCiAgICAgICAgICBsZXQgb3V0cHV0ID0gVVJMKGZpbGVVUkxXaXRoUGF0aDogUHJvY2Vzc0luZm8ucHJvY2Vzc0luZm8uZW52aXJvbm1lbnRbIk9VVFBVVCJdISkKICAgICAgICAgIGxldCBzb3VyY2VEYXRhID0gdHJ5IERhdGEoY29udGVudHNPZjogaW5wdXQpCiAgICAgICAgICB2YXIgcCA9IHRyeSBNU1BESS5wcm9qZWN0KGZyb206IHNvdXJjZURhdGEpCiAgICAgICAgICBsZXQgZG9jID0gdHJ5IFhNTERvY3VtZW50KGRhdGE6IHNvdXJjZURhdGEpCiAgICAgICAgICBmdW5jIGNoaWxkcmVuKF8gcGFyZW50OiBYTUxFbGVtZW50LCBfIGtleTogU3RyaW5nKSAtPiBbWE1MRWxlbWVudF0gewogICAgICAgICAgICAgIHBhcmVudC5lbGVtZW50cyhmb3JMb2NhbE5hbWU6IGtleSwgdXJpOiAiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9wcm9qZWN0IikKICAgICAgICAgIH0KICAgICAgICAgIGZ1bmMgc3RyaW5nKF8gZWxlbWVudDogWE1MRWxlbWVudCwgXyBrZXk6IFN0cmluZykgLT4gU3RyaW5nIHsKICAgICAgICAgICAgICBjaGlsZHJlbihlbGVtZW50LCBrZXkpLmZpcnN0Py5zdHJpbmdWYWx1ZSA/PyAiIgogICAgICAgICAgfQogICAgICAgICAgZnVuYyBhbW91bnQoXyBlbGVtZW50OiBYTUxFbGVtZW50LCBfIGtleTogU3RyaW5nKSAtPiBEb3VibGUgewogICAgICAgICAgICAgIERvdWJsZShzdHJpbmcoZWxlbWVudCwga2V5KSkgPz8gMAogICAgICAgICAgfQogICAgICAgICAgZnVuYyBob3VycyhfIGVsZW1lbnQ6IFhNTEVsZW1lbnQsIF8ga2V5OiBTdHJpbmcpIC0+IERvdWJsZSB7CiAgICAgICAgICAgICAgbGV0IHZhbHVlID0gc3RyaW5nKGVsZW1lbnQsIGtleSkKICAgICAgICAgICAgICByZXR1cm4gRG91YmxlKHZhbHVlLmRyb3BGaXJzdCgyKS5wcmVmaXgod2hpbGU6IHsgJDAgIT0gIkgiIH0pKSA/PyAwCiAgICAgICAgICB9CiAgICAgICAgICBmdW5jIGxvb2t1cChfIGdyb3VwOiBTdHJpbmcsIF8gaXRlbTogU3RyaW5nLCBrZXk6IFN0cmluZyA9ICJVSUQiKSAtPiBbSW50OlhNTEVsZW1lbnRdIHsKICAgICAgICAgICAgICBEaWN0aW9uYXJ5KHVuaXF1ZUtleXNXaXRoVmFsdWVzOiBjaGlsZHJlbihjaGlsZHJlbihkb2Mucm9vdEVsZW1lbnQoKSEsIGdyb3VwKVswXSwgaXRlbSkubWFwIHsKICAgICAgICAgICAgICAgICAgKEludChhbW91bnQoJDAsIGtleSkpLCAkMCkKICAgICAgICAgICAgICB9KQogICAgICAgICAgfQogICAgICAgICAgbGV0IHRhc2tzID0gbG9va3VwKCJUYXNrcyIsIlRhc2siKQogICAgICAgICAgbGV0IHJlc291cmNlcyA9IGxvb2t1cCgiUmVzb3VyY2VzIiwiUmVzb3VyY2UiKQogICAgICAgICAgbGV0IGFzc2lnbm1lbnRzID0gbG9va3VwKCJBc3NpZ25tZW50cyIsIkFzc2lnbm1lbnQiLCBrZXk6ICJUYXNrVUlEIikKICAgICAgICAgIHAudGl0bGUgPSAi0KHRgtCy0L7RgNC10L3QvdGPINC60L7RgNC/0L7RgNCw0YLQuNCy0L3QvtCz0L4g0L/QvtGA0YLQsNC70YMg0L/RltC00L/RgNC40ZTQvNGB0YLQstCwIOKAlCDQutGD0YDRgdC+0LLQsCDihJY0NiIKICAgICAgICAgIHAuY3VycmVuY3lDb2RlID0gIlVTRCIKICAgICAgICAgIHAuY29tbWVudHMgPSAi0JHQsNC30L7QstC40Lkg0LrQsNC70LXQvdC00LDRgCAwNy4wOeKAkzE1LjEyLjIwMjYsIDcyINGA0L7QsdC+0YfRliDQtNC90ZYuINCa0L7QvdGC0YDQvtC70YwgMDYuMTEuMjAyNi4g0J/RgNC+0LPQvdC+0LcgMTcuMTIuMjAyNi4gUFYgMzE3MjAgVVNELCBFViAyOTgzNiBVU0QsIEFDIDMwNDM3IFVTRC4g0KTQsNC60YLQuNGH0L3RliDQtNCw0L3RliDQt9C80L7QtNC10LvRjNC+0LLQsNC90L4uIgogICAgICAgICAgcC5maWVsZEFsaWFzZXNbIm51bWJlcjEiXSA9ICJQVjog0LrRg9GA0YHQvtCy0LAsIFVTRCIKICAgICAgICAgIHAuZmllbGRBbGlhc2VzWyJudW1iZXIyIl0gPSAiRVY6INC60YPRgNGB0L7QstCwLCBVU0QiCiAgICAgICAgICBwLmZpZWxkQWxpYXNlc1sibnVtYmVyMyJdID0gIkFDOiDQutGD0YDRgdC+0LLQsCwgVVNEIgogICAgICAgICAgcC5maWVsZEFsaWFzZXNbIm51bWJlcjQiXSA9ICLQpNCw0LrRgtC40YfQvdCwINGA0L7QsdC+0YLQsCwg0LPQvtC0IgogICAgICAgICAgcC5maWVsZEFsaWFzZXNbIm51bWJlcjUiXSA9ICLQpNGW0LfQuNGH0L3QtSDQstC40LrQvtC90LDQvdC90Y8sICUiCiAgICAgICAgICBwLmZpZWxkQWxpYXNlc1sibnVtYmVyNiJdID0gItCf0L7QstC90LjQuSDRgNC10LfQtdGA0LIg0LHQsNC30L7QstC+0LPQviDQv9C70LDQvdGDLCDQtNC90ZYiCiAgICAgICAgICBmb3IgaSBpbiBwLnRhc2tzLmluZGljZXMgewogICAgICAgICAgICAgIGxldCB0ID0gdGFza3NbcC50YXNrc1tpXS51aWRdIQogICAgICAgICAgICAgIHAudGFza3NbaV0uY29zdCA9IGFtb3VudCh0LCJDb3N0IikKICAgICAgICAgICAgICBwLnRhc2tzW2ldLmFjdHVhbENvc3QgPSBhbW91bnQodCwiQWN0dWFsQ29zdCIpCiAgICAgICAgICAgICAgcC50YXNrc1tpXS53b3JrSG91cnMgPSBob3Vycyh0LCJXb3JrIikKICAgICAgICAgICAgICBwLnRhc2tzW2ldLmJhc2VsaW5lc1swXT8uY29zdCA9IGFtb3VudChjaGlsZHJlbih0LCJCYXNlbGluZSIpWzBdLCJDb3N0IikKICAgICAgICAgICAgICBwLnRhc2tzW2ldLm51bWJlcnMgPSBbMTogYW1vdW50KHQsIkJDV1MiKSwgMjogYW1vdW50KHQsIkJDV1AiKSwgMzogYW1vdW50KHQsIkFDV1AiKSwgNDogaG91cnModCwiQWN0dWFsV29yayIpLCA1OiBhbW91bnQodCwiUGh5c2ljYWxQZXJjZW50Q29tcGxldGUiKV0KICAgICAgICAgIH0KICAgICAgICAgIGxldCBzb3VyY2VCeVVJRCA9IERpY3Rpb25hcnkodW5pcXVlS2V5c1dpdGhWYWx1ZXM6IHAudGFza3MubWFwIHsgKCQwLnVpZCwgJDApIH0pCiAgICAgICAgICBmb3IgaSBpbiBwLnJlc291cmNlcy5pbmRpY2VzIHsKICAgICAgICAgICAgICBsZXQgcm93ID0gcmVzb3VyY2VzW3AucmVzb3VyY2VzW2ldLnVpZF0hCiAgICAgICAgICAgICAgbGV0IHJhdGUgPSBhbW91bnQocm93LCJTdGFuZGFyZFJhdGUiKQogICAgICAgICAgICAgIHAucmVzb3VyY2VzW2ldLmNvc3RSYXRlVGFibGVzID0gW1tQYXlSYXRlKHN0YW5kYXJkUGVySG91cjogcmF0ZSwgb3ZlcnRpbWVQZXJIb3VyOiByYXRlKV1dCiAgICAgICAgICAgICAgbGV0IGIgPSBjaGlsZHJlbihyb3csIkJhc2VsaW5lIilbMF0KICAgICAgICAgICAgICBwLnJlc291cmNlc1tpXS5iYXNlbGluZXNbMF0gPSBCYXNlbGluZSh3b3JrSG91cnM6IGhvdXJzKGIsIldvcmsiKSwgY29zdDogYW1vdW50KGIsIkNvc3QiKSkKICAgICAgICAgIH0KICAgICAgICAgIGZvciBpIGluIHAuYXNzaWdubWVudHMuaW5kaWNlcyB7CiAgICAgICAgICAgICAgbGV0IHJvdyA9IGFzc2lnbm1lbnRzW3AuYXNzaWdubWVudHNbaV0udGFza1VJRF0hCiAgICAgICAgICAgICAgcC5hc3NpZ25tZW50c1tpXS5jb3N0ID0gYW1vdW50KHJvdywiQ29zdCIpCiAgICAgICAgICAgICAgcC5hc3NpZ25tZW50c1tpXS5hY3R1YWxDb3N0ID0gYW1vdW50KHJvdywiQWN0dWFsQ29zdCIpCiAgICAgICAgICAgICAgcC5hc3NpZ25tZW50c1tpXS5iYXNlbGluZXNbMF0gPSBzb3VyY2VCeVVJRFtwLmFzc2lnbm1lbnRzW2ldLnRhc2tVSURdPy5iYXNlbGluZXNbMF0KICAgICAgICAgIH0KICAgICAgICAgIGxldCB0ZW1wbGF0ZSA9IFVSTChmaWxlVVJMV2l0aFBhdGg6ICJTYW1wbGVzL0JsYW5rLVRlbXBsYXRlLm1wcCIpCiAgICAgICAgICB0cnkgTVBQMTRXcml0ZXIodGVtcGxhdGVVUkw6IHRlbXBsYXRlKS53cml0ZShwLCB0bzogb3V0cHV0KQogICAgICAgICAgbGV0IGJhY2sgPSB0cnkgTVBQMTRGaWxlKHBhdGg6IG91dHB1dC5wYXRoKS5yZWFkUHJvamVjdCgpCiAgICAgICAgICBwcmVjb25kaXRpb24oYmFjay50YXNrcy5jb3VudCA9PSAyOCAmJiBiYWNrLnJlc291cmNlcy5jb3VudCA9PSAxMCAmJiBiYWNrLmFzc2lnbm1lbnRzLmNvdW50ID09IDI4ICYmIGJhY2sucmVsYXRpb25zLmNvdW50ID09IDUxKQogICAgICAgICAgcHJlY29uZGl0aW9uKGJhY2suc3RhdHVzRGF0ZSA9PSBwLnN0YXR1c0RhdGUgJiYgYmFjay5zdGFydCA9PSBwLnN0YXJ0KQogICAgICAgICAgZm9yIHQgaW4gYmFjay50YXNrcyB7CiAgICAgICAgICAgICAgbGV0IGV4cGVjdGVkID0gc291cmNlQnlVSURbdC51aWRdIQogICAgICAgICAgICAgIHByZWNvbmRpdGlvbih0Lm5hbWUgPT0gZXhwZWN0ZWQubmFtZSAmJiB0LnN0YXJ0ID09IGV4cGVjdGVkLnN0YXJ0ICYmIHQuZmluaXNoID09IGV4cGVjdGVkLmZpbmlzaCAmJiB0LndicyA9PSBleHBlY3RlZC53YnMsICJUYXNrIGRhdGVzL3RpdGxlIFwodC51aWQpIikKICAgICAgICAgICAgICBwcmVjb25kaXRpb24odC5iYXNlbGluZXNbMF0/LnN0YXJ0ID09IGV4cGVjdGVkLmJhc2VsaW5lc1swXT8uc3RhcnQgJiYgdC5iYXNlbGluZXNbMF0/LmZpbmlzaCA9PSBleHBlY3RlZC5iYXNlbGluZXNbMF0/LmZpbmlzaCwgIkJhc2VsaW5lIGRhdGVzIFwodC51aWQpIikKICAgICAgICAgICAgICBwcmVjb25kaXRpb24oYWJzKCh0LmJhc2VsaW5lc1swXT8uY29zdCA/PyAtMSkgLSAoZXhwZWN0ZWQuYmFzZWxpbmVzWzBdPy5jb3N0ID8/IC0yKSkgPCAwLjAxLCAiQmFzZWxpbmUgY29zdCBcKHQudWlkKSIpCiAgICAgICAgICAgICAgcHJlY29uZGl0aW9uKGFicyh0LmFjdHVhbENvc3QgLSBleHBlY3RlZC5hY3R1YWxDb3N0KSA8IDAuMDEsICJBY3R1YWwgY29zdCBcKHQudWlkKSIpCiAgICAgICAgICB9CiAgICAgICAgICBwcmVjb25kaXRpb24oYWJzKGJhY2sudGFza3MucmVkdWNlKDApIHsgJDAgKyAoJDEuYmFzZWxpbmVzWzBdPy5jb3N0ID8/IDApIH0gLSA0MDMwOCkgPCAwLjAxKQogICAgICAgICAgcHJlY29uZGl0aW9uKGFicyhiYWNrLnRhc2tzLnJlZHVjZSgwKSB7ICQwICsgJDEuYWN0dWFsQ29zdCB9IC0gMzA0MzcpIDwgMC4wMSkKICAgICAgICAgIGZvciByIGluIGJhY2sucmVzb3VyY2VzIHsKICAgICAgICAgICAgICBwcmVjb25kaXRpb24oYWJzKChyLmNvc3RSYXRlVGFibGVzLmZpcnN0Py5maXJzdD8uc3RhbmRhcmRQZXJIb3VyID8/IC0xKSAtIGFtb3VudChyZXNvdXJjZXNbci51aWRdISwgIlN0YW5kYXJkUmF0ZSIpKSA8IDAuMDEsICJSYXRlIFwoci51aWQpIikKICAgICAgICAgIH0KICAgICAgICAgIHByaW50KCJWZXJpZmllZDogMjggdGFza3MsIDEwIHJvbGVzLCAyOCBhc3NpZ25tZW50cywgNTEgbGlua3MsIHN0YXR1cyBkYXRlLCBhbGwgdGFzayBkYXRlcywgYWxsIGJhc2VsaW5lIGRhdGVzIGFuZCBjb3N0cywgYWxsIHJlc291cmNlIHJhdGVzLCBhbGwgYWN0dWFsIGNvc3RzLiIpCiAgICAgICAgICBTV0lGVAogICAgICAgICAgc3dpZnQgcnVuIC1jIHJlbGVhc2UgbXBwZHVtcAogICAgICAtIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY2CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IGNvdXJzZXdvcmstNDYtbXBwCiAgICAgICAgICBwYXRoOiBLdXJzb3ZhXzQ2X1Byb2plY3QubXBwCiAgICAgICAgICBpZi1uby1maWxlcy1mb3VuZDogZXJyb3IKICAgICAgICAgIHJldGVudGlvbi1kYXlzOiA3CgogIHB1Ymxpc2g6CiAgICBuZWVkczogZXhwb3J0CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICB0aW1lb3V0LW1pbnV0ZXM6IDMKICAgIHBlcm1pc3Npb25zOgogICAgICBjb250ZW50czogd3JpdGUKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvZG93bmxvYWQtYXJ0aWZhY3RAdjcKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogY291cnNld29yay00Ni1tcHAKICAgICAgLSBuYW1lOiBQdWJsaXNoIHRoZSB2ZXJpZmllZCBiaW5hcnkgb24gdGhlIGV4cG9ydCBicmFuY2gKICAgICAgICBlbnY6CiAgICAgICAgICBHSF9UT0tFTjogJHt7IGdpdGh1Yi50b2tlbiB9fQogICAgICAgICAgR0hfUkVQTzogJHt7IGdpdGh1Yi5yZXBvc2l0b3J5IH19CiAgICAgICAgICBFWFBPUlRfQlJBTkNIOiBjb2RleC9jb3Vyc2U0Ni1tcHAtZXhwb3J0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBweXRob24zIC0gPDwnUFknIHwgZ2ggYXBpIC0tbWV0aG9kIFBVVCAicmVwb3MvJEdIX1JFUE8vY29udGVudHMvMDEtcHJvamVjdC1wbGFuLzIwMjYtQjEvS3Vyc292YV80Nl9Qcm9qZWN0Lm1wcCIgLS1pbnB1dCAtIC0tanEgLmNvbW1pdC5zaGEKICAgICAgICAgIGltcG9ydCBiYXNlNjQsIGpzb24sIG9zCiAgICAgICAgICBmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKICAgICAgICAgIGRhdGEgPSBQYXRoKCJLdXJzb3ZhXzQ2X1Byb2plY3QubXBwIikucmVhZF9ieXRlcygpCiAgICAgICAgICBhc3NlcnQgZGF0YVs6OF0gPT0gYnl0ZXMuZnJvbWhleCgiZDBjZjExZTBhMWIxMWFlMSIpCiAgICAgICAgICBwcmludChqc29uLmR1bXBzKHsiYnJhbmNoIjogb3MuZW52aXJvblsiRVhQT1JUX0JSQU5DSCJdLCAibWVzc2FnZSI6ICJQdWJsaXNoIHZlcmlmaWVkIG5hdGl2ZSBNaWNyb3NvZnQgUHJvamVjdCBmaWxlIiwgImNvbnRlbnQiOiBiYXNlNjQuYjY0ZW5jb2RlKGRhdGEpLmRlY29kZSgpfSkpCiAgICAgICAgICBQWQo=
+name: Build coursework 46 native MPP
+
+on:
+  push:
+    branches: [codex/course46-mpp-export]
+    paths: [.github/workflows/course46-mpp.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: macos-15
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Get pinned MPP writer
+        run: |
+          git init "$RUNNER_TEMP/mppkit"
+          git -C "$RUNNER_TEMP/mppkit" fetch --depth=1 https://github.com/Molch-ApS/MPPKit.git a47fdec1e70e5ea8e9db17249dd265b1a9eacc26
+          git -C "$RUNNER_TEMP/mppkit" checkout --detach FETCH_HEAD
+      - name: Build and round-trip the course schedule
+        env:
+          INPUT: ${{ github.workspace }}/01-project-plan/2026-B1/Kursova_46_Project.xml
+          OUTPUT: ${{ github.workspace }}/Kursova_46_Project.mpp
+        run: |
+          cd "$RUNNER_TEMP/mppkit"
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("Sources/MPP14/MPP14Writer.swift")
+          s = p.read_text()
+          def change(a, b):
+              global s
+              assert s.count(a) == 1, a
+              s = s.replace(a,b)
+          change("project.recalculateCosts(keepingFrom: source)",
+                 "// The exported coursework input already contains its modeled costs.")
+          change("let assignmentWork = project.assignmentWorkHours(keepingFrom: source).map { $0 * 600 * W.workScale }",
+                 "let assignmentWork = project.assignments.map { $0.workHours * 600 * W.workScale }")
+          change("""directWork[a.taskUID, default: 0] += keptWork[i] ? assignmentWork[i]
+                          : Double(eff[a.taskUID]!.tenths) * W.workScale * a.units""",
+                 "directWork[a.taskUID, default: 0] += assignmentWork[i]")
+          change("var done = sum * Double(pct[t.uid] ?? 0) / 100",
+                 "var done = (t.numbers[4] ?? 0) * 600 * W.workScale")
+          change("""let workPercent = workPercent ?? percent
+                      e.u16(F.percentWorkComplete, UInt16(workPercent))""",
+                 """let measured = task?.numbers[4].map { $0 * 600 * W.workScale }
+                      let workPercent = measured.map { work > 0 ? Int.clamped($0 / work * 100) : 0 } ?? workPercent ?? percent
+                      e.u16(F.percentWorkComplete, UInt16(workPercent))""")
+          change("""e.f64(F.actualWork, work * Double(workPercent) / 100)
+                          e.f64(F.remainingWork, work * Double(100 - workPercent) / 100)""",
+                 """let exact = measured ?? work * Double(workPercent) / 100
+                          e.f64(F.actualWork, exact)
+                          e.f64(F.remainingWork, work - exact)""")
+          change("let work = keepsWork ? assignmentWork[n] : Double(tenths) * W.workScale * spec.units",
+                 "let work = n < assignmentWork.count ? assignmentWork[n] : 0")
+          change("""let p = pct[spec.task] ?? 0
+                      var reached""",
+                 """let p = pct[spec.task] ?? 0
+                      let actual = (task.numbers[4] ?? 0) * 600 * W.workScale
+                      var reached""")
+          change("remainingWork = work * Double(100 - p) / 100", "remainingWork = work - actual")
+          change("e.f64(A.actualWork, work * Double(p) / 100)", "e.f64(A.actualWork, actual)")
+          change("e.u16(A.percentWorkComplete, UInt16(p))", "e.u16(A.percentWorkComplete, UInt16(work > 0 ? Int.clamped(actual / work * 100) : 0))")
+          change("Self.actualWorkContour(units: spec.units, work: work * Double(p) / 100,",
+                 "Self.actualWorkContour(units: spec.units, work: actual,")
+          p.write_text(s)
+          PY
+          mv Sources/mppdump/main.swift "$RUNNER_TEMP/mppdump-original.swift"
+          cat > Sources/mppdump/main.swift <<'SWIFT'
+          // SPDX-License-Identifier: AGPL-3.0-only
+          import Foundation
+          import FoundationXML
+          import MPPKit
+
+          let input = URL(fileURLWithPath: ProcessInfo.processInfo.environment["INPUT"]!)
+          let output = URL(fileURLWithPath: ProcessInfo.processInfo.environment["OUTPUT"]!)
+          let sourceData = try Data(contentsOf: input)
+          var p = try MSPDI.project(from: sourceData)
+          let doc = try XMLDocument(data: sourceData)
+          func children(_ parent: XMLElement, _ key: String) -> [XMLElement] {
+              parent.elements(forLocalName: key, uri: "http://schemas.microsoft.com/project")
+          }
+          func string(_ element: XMLElement, _ key: String) -> String {
+              children(element, key).first?.stringValue ?? ""
+          }
+          func amount(_ element: XMLElement, _ key: String) -> Double {
+              Double(string(element, key)) ?? 0
+          }
+          func hours(_ element: XMLElement, _ key: String) -> Double {
+              let value = string(element, key)
+              return Double(value.dropFirst(2).prefix(while: { $0 != "H" })) ?? 0
+          }
+          func lookup(_ group: String, _ item: String, key: String = "UID") -> [Int:XMLElement] {
+              Dictionary(uniqueKeysWithValues: children(children(doc.rootElement()!, group)[0], item).map {
+                  (Int(amount($0, key)), $0)
+              })
+          }
+          let tasks = lookup("Tasks","Task")
+          let resources = lookup("Resources","Resource")
+          let assignments = lookup("Assignments","Assignment", key: "TaskUID")
+          p.title = "Створення корпоративного порталу підприємства — курсова №46"
+          p.currencyCode = "USD"
+          p.comments = "Базовий календар 07.09–15.12.2026, 72 робочі дні. Контроль 06.11.2026. Прогноз 17.12.2026. PV 31720 USD, EV 29836 USD, AC 30437 USD. Фактичні дані змодельовано."
+          p.fieldAliases["number1"] = "PV: курсова, USD"
+          p.fieldAliases["number2"] = "EV: курсова, USD"
+          p.fieldAliases["number3"] = "AC: курсова, USD"
+          p.fieldAliases["number4"] = "Фактична робота, год"
+          p.fieldAliases["number5"] = "Фізичне виконання, %"
+          for i in p.tasks.indices {
+              let t = tasks[p.tasks[i].uid]!
+              p.tasks[i].cost = amount(t,"Cost")
+              p.tasks[i].actualCost = amount(t,"ActualCost")
+              p.tasks[i].workHours = hours(t,"Work")
+              p.tasks[i].baselines[0]?.cost = amount(children(t,"Baseline")[0],"Cost")
+              p.tasks[i].numbers = [1: amount(t,"BCWS"), 2: amount(t,"BCWP"), 3: amount(t,"ACWP"), 4: hours(t,"ActualWork"), 5: amount(t,"PhysicalPercentComplete")]
+          }
+          let sourceByUID = Dictionary(uniqueKeysWithValues: p.tasks.map { ($0.uid, $0) })
+          for i in p.resources.indices {
+              let row = resources[p.resources[i].uid]!
+              let rate = amount(row,"StandardRate")
+              p.resources[i].costRateTables = [[PayRate(standardPerHour: rate, overtimePerHour: rate)]]
+              let b = children(row,"Baseline")[0]
+              p.resources[i].baselines[0] = Baseline(workHours: hours(b,"Work"), cost: amount(b,"Cost"))
+          }
+          for i in p.assignments.indices {
+              let row = assignments[p.assignments[i].taskUID]!
+              p.assignments[i].cost = amount(row,"Cost")
+              p.assignments[i].actualCost = amount(row,"ActualCost")
+              p.assignments[i].baselines[0] = sourceByUID[p.assignments[i].taskUID]?.baselines[0]
+          }
+          let template = URL(fileURLWithPath: "Samples/Blank-Template.mpp")
+          try MPP14Writer(templateURL: template).write(p, to: output)
+          let back = try MPP14File(path: output.path).readProject()
+          precondition(back.tasks.count == 28 && back.resources.count == 10 && back.assignments.count == 28 && back.relations.count == 51)
+          precondition(back.statusDate == p.statusDate && back.start == p.start)
+          for t in back.tasks {
+              let expected = sourceByUID[t.uid]!
+              precondition(t.name == expected.name && t.start == expected.start && t.finish == expected.finish && t.wbs == expected.wbs, "Task dates/title \(t.uid)")
+              precondition(t.baselines[0]?.start == expected.baselines[0]?.start && t.baselines[0]?.finish == expected.baselines[0]?.finish, "Baseline dates \(t.uid)")
+              precondition(abs((t.baselines[0]?.cost ?? -1) - (expected.baselines[0]?.cost ?? -2)) < 0.01, "Baseline cost \(t.uid)")
+              precondition(abs(t.actualCost - expected.actualCost) < 0.01, "Actual cost \(t.uid)")
+          }
+          precondition(abs(back.tasks.reduce(0) { $0 + ($1.baselines[0]?.cost ?? 0) } - 40308) < 0.01)
+          precondition(abs(back.tasks.reduce(0) { $0 + $1.actualCost } - 30437) < 0.01)
+          for r in back.resources {
+              precondition(abs((r.costRateTables.first?.first?.standardPerHour ?? -1) - amount(resources[r.uid]!, "StandardRate")) < 0.01, "Rate \(r.uid)")
+          }
+          print("Verified: 28 tasks, 10 roles, 28 assignments, 51 links, status date, all task dates, all baseline dates and costs, all resource rates, all actual costs.")
+          SWIFT
+          swift run -c release mppdump
+      - uses: actions/upload-artifact@v6
+        with:
+          name: coursework-46-mpp
+          path: Kursova_46_Project.mpp
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    needs: export
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v7
+        with:
+          name: coursework-46-mpp
+      - name: Publish the verified binary on the export branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EXPORT_BRANCH: codex/course46-mpp-export
+        run: |
+          python3 - <<'PY' | gh api --method PUT "repos/$GH_REPO/contents/01-project-plan/2026-B1/Kursova_46_Project.mpp" --input - --jq .commit.sha
+          import base64, json, os
+          from pathlib import Path
+          data = Path("Kursova_46_Project.mpp").read_bytes()
+          assert data[:8] == bytes.fromhex("d0cf11e0a1b11ae1")
+          print(json.dumps({"branch": os.environ["EXPORT_BRANCH"], "message": "Publish verified native Microsoft Project file", "content": base64.b64encode(data).decode()}))
+          PY
