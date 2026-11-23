@@ -1,3 +1,7 @@
 # Internal agent-to-agent skill notes (local only; never commit secrets)
 .agent-git-playbook.local.md
 
+# Private/local copies of Moodle materials with unverified redistribution rights
+_moodle_private/
+**/_moodle_private/
+
