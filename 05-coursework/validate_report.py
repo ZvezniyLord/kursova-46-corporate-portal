@@ -25,16 +25,12 @@ with zipfile.ZipFile(str(docx)) as archive:
 assert pdf.exists() and pdf.stat().st_size > 10000, "PDF missing or unexpectedly small"
 pdf_bytes = pdf.read_bytes()
 assert pdf_bytes.startswith(b"%PDF-") and pdf_bytes.rstrip().endswith(b"%%EOF")
-import win32com.client
-word = win32com.client.Dispatch("Word.Application")
-word.Visible = False
-word.DisplayAlerts = 0
-rendered = word.Documents.Open(str(pdf.resolve()), ReadOnly=True, AddToRecentFiles=False, ConfirmConversions=False, NoEncodingDialog=True)
-pdf_text = rendered.Content.Text
-pages = rendered.ComputeStatistics(2)
+import pymupdf
+pdf_doc = pymupdf.open(str(pdf))
+pages = pdf_doc.page_count
+pdf_text = "\n".join(page.get_text() for page in pdf_doc)
 assert pages >= 10, pages
 assert all(marker in pdf_text for marker in ["Ініціація та організаційне", "Планування змісту, строків", "Моделювання, моніторинг", "ВИСНОВКИ", "ДОДАТКИ"])
-rendered.Close(False)
-word.Quit()
+pdf_doc.close()
 print("PASS: full three-chapter markdown, DOCX ZIP integrity, 108 paragraphs, 8 tables, title/metadata, simulation and blocker labels.")
-print(f"PDF PASS: opens in Microsoft Word; {pages} pages; chapter/body markers verified; {pdf.stat().st_size} bytes.")
+print(f"PDF PASS: parsed directly with PyMuPDF; {pages} pages; chapter/body markers verified; {pdf.stat().st_size} bytes.")
