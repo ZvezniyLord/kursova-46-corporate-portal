@@ -1,0 +1,2 @@
+check,wbs_leaves,rows,sum_ev,sum_ac,sum_pv,sum_bac,leaf_sum_ev,leaf_sum_ac,leaf_sum_pv,ok
+Σ per-leaf totals == Σ task totals,17,24,25819.6,26118,28060.0,32264,25819.6,26118,28060.0,True
