@@ -1,0 +1,10 @@
+resource_id,role,organisation,daily_hours,rate_usd
+PM,Project manager,AG5 (course owner),8,70
+BA,Business analyst,AG5 (course owner),8,50
+UX-1,UX/UI designer (lead),O3 (prototype),4,60
+UX-2,UX/UI designer,O3 (prototype),4,60
+FED-1,Frontend developer,O1 (planning),4,48
+FED-2,Frontend developer,O1 (planning),4,48
+QA-1,QA engineer,O4 (UAT),4,45
+PMO,Project management / planning office,O1 (planning),4,65
+AG5,Author / course owner,AG5 (course owner),4,65

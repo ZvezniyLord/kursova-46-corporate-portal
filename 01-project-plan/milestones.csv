@@ -1,0 +1,8 @@
+milestone_id,name,date,week,note,in_gantt
+M1,Scope & requirements approved,2026-09-23,3,"T-01..T-03 + T-02 done (2026-09-23, W3)",True
+M2,WBS & planning model approved,2026-09-30,4,"Baseline 0 recorded (2026-09-30, W4) before execution",True
+M3,Prototype screens functional (assembly in progress),2026-10-30,8,T-12..T-17 done; T-18 starts W8,True
+M4,EVM snapshot & variance report,2026-11-06,9,Status date 2026-11-06; educational snapshot only,True
+M5,Manuscript ready for instructor review,2026-11-26,12,"T-23 done (2026-11-26, W12)",False
+M6,DOCX/PDF quality gate passed,2026-12-02,13,"T-24 done (2026-12-02, W13)",False
+M7,16-week horizon — simulation buffer (no planned work),2026-12-25,16,"Days 61-80 reserved for review, fixes, consultation",False

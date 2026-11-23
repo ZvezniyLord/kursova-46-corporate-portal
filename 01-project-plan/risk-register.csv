@@ -1,0 +1,9 @@
+id,description,probability,impact,owner_role,response,trigger,status
+RSK-001,Incomplete requirements while Moodle or stakeholder access is unavailable,High,High,AG5,Request authorized verification; keep open questions; never treat summary as complete course brief,Before approval,OPEN
+RSK-002,Free inference endpoint availability or quota may change,Medium,High,AG5,Pin free route; keep fallback lists empty; stop on billing/auth error,Provider error or nonzero estimate,OPEN
+RSK-003,No licensed compatible tool available to produce and verify native MPP,Medium,High,O1,Check available software; prepare source data separately; mark MPP BLOCKED if native file cannot be verified,MPP open check fails,OPEN
+RSK-004,Jira requires paid tier or no authorized login is available,Medium,Medium,O2,Verify allowed free workspace; otherwise deliver import proposal only,No verified workspace,OPEN
+RSK-005,Mock roles/login mistaken for production security,Medium,High,O3,Display mock limitations and synthetic data notice,Demo published without limitation notice,OPEN
+RSK-006,Invented test runs/customer sign-off damage academic integrity,Low,High,O4,Use NOT_RUN/PASS/FAIL/BLOCKED/NOT_PERFORMED truthfully,No execution record,OPEN
+RSK-007,IDs/schedule/cost/actuals diverge across artifacts,Medium,High,AG5/O1,Use shared ledgers and recalculate; log changes,Inconsistent table totals,OPEN
+RSK-008,Personal or licensed data accidentally enters public repository,Low,High,AG5,Use synthetic data; inspect diff before commit; exclude LMS originals/secrets,Before any publish,OPEN
