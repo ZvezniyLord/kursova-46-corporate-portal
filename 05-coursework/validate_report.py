@@ -22,6 +22,19 @@ with zipfile.ZipFile(str(docx)) as archive:
     assert "EDUCATIONAL_SIMULATION" in contents
     assert "BLOCKED" in contents
     assert len(xml.xpath("//w:tbl", namespaces=ns)) >= 8
-assert not pdf.exists(), "PDF unexpectedly exists; validate before claiming"
+assert pdf.exists() and pdf.stat().st_size > 10000, "PDF missing or unexpectedly small"
+pdf_bytes = pdf.read_bytes()
+assert pdf_bytes.startswith(b"%PDF-") and pdf_bytes.rstrip().endswith(b"%%EOF")
+import win32com.client
+word = win32com.client.Dispatch("Word.Application")
+word.Visible = False
+word.DisplayAlerts = 0
+rendered = word.Documents.Open(str(pdf.resolve()), ReadOnly=True, AddToRecentFiles=False, ConfirmConversions=False, NoEncodingDialog=True)
+pdf_text = rendered.Content.Text
+pages = rendered.ComputeStatistics(2)
+assert pages >= 10, pages
+assert all(marker in pdf_text for marker in ["Ініціація та організаційне", "Планування змісту, строків", "Моделювання, моніторинг", "ВИСНОВКИ", "ДОДАТКИ"])
+rendered.Close(False)
+word.Quit()
 print("PASS: full three-chapter markdown, DOCX ZIP integrity, 108 paragraphs, 8 tables, title/metadata, simulation and blocker labels.")
-print("PDF: NOT GENERATED; no local LibreOffice/soffice or PDF renderer was found.")
+print(f"PDF PASS: opens in Microsoft Word; {pages} pages; chapter/body markers verified; {pdf.stat().st_size} bytes.")
