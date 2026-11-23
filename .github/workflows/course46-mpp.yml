@@ -3,7 +3,7 @@ name: Build coursework 46 native MPP
 on:
   push:
     branches: [codex/course46-mpp-export]
-    paths: [.github/workflows/course46-mpp.yml]
+  workflow_dispatch:
 
 permissions:
   contents: read
